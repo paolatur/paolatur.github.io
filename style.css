@@ -1,57 +1,47 @@
-body {
-    background-color: silver;
-    font-family: Helvetica, Arial, sans-serif;
-    margin: 0px;
-}
-
 body > header {
-    background-color: orange;
+    background-color: rgb(242, 203, 223);
     color: white;  
     margin: 0px;
+    padding: 0px;
     display: flex;
-    height: 30%;
+    height: 40%;
     align-items: center;
     justify-content: space-around;
 }
 
-
-#nav-ul {
-    display: flex;
+body { 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 223, 229);
+    color: rgb(150, 52, 101);
 }
-
-#nav-ul > li {
-    padding: 8px;
-    margin: 16px;
-}
-
-
-#main.header
 
 #logo {
     margin: 0px;
     padding: 0px;
-    font-family: "Fredoka One", sans-serif;
-    box-shadow: 10px 10px 15px 5px rgb(178, 34, 34);
-    text-shadow: rgb(178, 34, 34)
-    1px 1px 0px black,
-    -1px 1px 0px black,
-    1px -1px 0px black,
-    -1px -1px 0px black;
+    font-family: "Pacifico", cursive;
+    font-size: 3.5em; 
+    text-shadow: 3px 3px 5px rgb(240, 132, 188); 
+    }
+
+
+#content-container {
+    display: flex;
+    gap: 20px; 
 }
 
-body > header > nav > ul { 
-    list-style: none;
-    text-decoration: none;
+#sidebar {
+    flex: 1;
+    background-color: #f0f0f0; 
+    padding: 10px;
 }
 
-.navbutton { 
-    color: white;
-    text-decoration: none;
-    padding: 12px;
-    border: 1px solid white;
-    border-radius: 10%;
+#method {
+    flex: 2;
+    background-color: #f0f0f0;
+    padding: 10px;
 }
-
 
 body > main article { 
     width: 70%;
@@ -59,37 +49,26 @@ body > main article {
     text-align: justify;
 }
 
-
-#main-content {
-    display: flex;
-    justify-content: space-around;
+#subheader {
+    text-align: center;
 }
-
-#main-content > div {
-    width: 70%;
-}
-
-
 
 form { 
     text-align: center;
 }
 
-#subheader {
-    color: rgb(0, 0, 0);
-    text-align: center;
+main {
+    padding: 20px; 
 }
 
-body > footer { 
-    background-color: orange;
-    color: white;
-    display: flex;
-}
 
 #footer-ul {
     display: flex;
-   list-style: none;
-
+    list-style: none;
+    background-color: rgb(242, 203, 223);
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 #footer-ul > div > li {
@@ -103,6 +82,25 @@ body > footer {
 }
 
 
-img {
-    border-radius: 30%;
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+
+body > header > nav > ul { 
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
 }
